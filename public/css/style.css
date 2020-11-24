@@ -9,6 +9,8 @@ body {
   font-weight: 400;
   line-height: 30.5px;
   min-height: 100%;
+  background: #EEE;
+  /* list-style-type: none; */
 }
 
 a {
@@ -30,7 +32,7 @@ img {
 }
 
 .nav {
-  background: #4e87ed;
+  background: hsl(218deg 82% 62%);
   margin-bottom: 100px;
 }
 

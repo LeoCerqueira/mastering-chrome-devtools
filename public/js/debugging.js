@@ -3,8 +3,8 @@ const fetcher = document.getElementById("fetcher");
 fetcher.addEventListener("click", fetchImages);
 
 function fetchImages() {
-  fetch("/api").then(data => {
-    processImages(data.imageList);
+  fetch("/api").then(response => response.json()).then(data => {
+    processImages(data.images);
   });
 }
 
